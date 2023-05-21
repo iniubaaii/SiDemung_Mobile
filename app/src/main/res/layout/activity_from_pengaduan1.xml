@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
     android:background="#83BD75"
-    tools:context=".views.notification.notifFragment">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
 
-    <!-- TODO: Update blank fragment layout -->
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="71dp">
@@ -27,14 +25,14 @@
             android:layout_marginStart="56dp"
             android:layout_marginLeft="15dp"
             android:layout_marginTop="18dp"
-            android:text="Notifikasi"
+            android:text="pengaduan anda"
             android:textColor="@color/black"
             android:textSize="22sp"
             android:textStyle="bold" />
     </RelativeLayout>
     <LinearLayout
         android:orientation="vertical"
-        android:layout_marginTop="69dp"
+        android:layout_marginTop="5dp"
         android:background="@drawable/kotak1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
@@ -44,7 +42,27 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="15dp"
             android:layout_marginTop="29dp"
-            android:text="Status Pengaduan"
+            android:text="Dalam Proses"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="174dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="163dp"
+            android:layout_marginTop="-23dp"
+            android:text="Selesai"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="174dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="274dp"
+            android:layout_marginTop="-23dp"
+            android:text="Riwayat"
             android:textColor="@color/black"
             android:textSize="16sp"
             android:textStyle="bold" />
@@ -61,11 +79,19 @@
             android:layout_width="174dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="106dp"
-            android:layout_marginTop="-59dp"
+            android:layout_marginTop="-62dp"
+            android:text="Riwayat"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="174dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="106dp"
+            android:layout_marginTop="13dp"
             android:text="Riwayat"
             android:textColor="@color/black"
             android:textSize="16sp"
             android:textStyle="bold" />
     </LinearLayout>
-
-</FrameLayout>
+</LinearLayout>
